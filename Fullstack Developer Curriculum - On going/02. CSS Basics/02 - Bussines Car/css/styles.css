@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 146, 194);
+}
+
+.business-card {
+    width: 300px;
+    background-color: black;
+    padding-left: 0px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid grey;
+}
+
+.profile-image {
+    max-width: 100%;
+}
+
+div p, h2 {
+    color: white;
+}
+
+div h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+hr {
+    border: 0;
+    background-color: white;
+    height: 3px;
+    width: 100%; /* Make it span the full width of its container */
+    margin: 0; /* Remove any default margin that might push it inward */
+    text-align: left; /* This might not be strictly necessary for hr but can help with alignment within its block */
+}
+
