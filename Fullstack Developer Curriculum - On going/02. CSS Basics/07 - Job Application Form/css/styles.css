@@ -132,3 +132,42 @@ button[type="submit"]:hover {
     height: 200px;
     max-height: 100%;
 }
+
+
+input:focus,
+textarea:focus {
+  border-color: rgb(225, 0, 255); /* You can choose any color you prefer */
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.radio-group input[type="radio"]:checked {
+    border-color: rgb(255, 0, 0);
+    background-color: chartreuse;
+    box-shadow: 3px 3px 3px chartreuse;
+}
+
+  /* LA REGLA PRINCIPAL */
+  /* Cuando un radio button está seleccionado, cambia el color de su label adyacente */
+ .radio-group input[type="radio"]:checked + label {
+    color: #007BFF; /* Color azul para el texto seleccionado */
+    font-weight: bold; /* Hacemos el texto más grueso */
+  }
+
+  input:first-of-type {
+    background-color: orange;
+  }
