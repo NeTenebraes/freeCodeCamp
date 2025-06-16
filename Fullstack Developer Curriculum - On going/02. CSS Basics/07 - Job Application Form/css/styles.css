@@ -61,13 +61,13 @@ select:focus {
 input:invalid,
 select:invalid,
 textarea:invalid {
-  border-color: #dc3545; /* Un rojo estándar para error */
+  border-color: red;
 }
 
 input:valid,
 select:valid,
 textarea:valid {
-  border-color: #28a745; /* Un verde estándar para válido */
+  border-color: green; /* Un verde estándar para válido */
 }
 
 /* Grupo de Radio Buttons */
@@ -139,18 +139,6 @@ textarea:focus {
   border-color: rgb(225, 0, 255); /* You can choose any color you prefer */
 }
 
-input:invalid,
-select:invalid,
-textarea:invalid {
-    border-color: red;
-}
-
-input:valid,
-select:valid,
-textarea:valid {
-    border-color: green;
-}
-
 button:hover {
     background-color: aqua;
 }
@@ -169,5 +157,5 @@ button:hover {
   }
 
   input:first-of-type {
-    background-color: orange;
+    background-color: rgb(229, 255, 0);
   }
